@@ -10,9 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ApllicationLoadAndConfigurationClass" Type="Folder">
+			<Item Name="ApllicationLoadAndConfigurationClass.lvclass" Type="LVClass" URL="../ApllicationLoadAndConfigurationClass/ApllicationLoadAndConfigurationClass.lvclass"/>
+		</Item>
 		<Item Name="ApplicationInititialisationClass" Type="Folder">
 			<Item Name="ApplicationInititialisation.lvclass" Type="LVClass" URL="../ApplicationInititialisationClass/ApplicationInititialisation.lvclass"/>
 		</Item>
+		<Item Name="AMySubViHelper.vi" Type="VI" URL="../AMySubViHelper.vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Abhängigkeiten" Type="Dependencies">
@@ -46,7 +50,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F26FB534-C7EB-47A5-AA68-14854AC6BA63}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RaedFromIni.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/RaedFromIni/RaedFromIni.exe</Property>
@@ -55,13 +59,18 @@
 				<Property Name="Destination[1].destName" Type="Str">Hilfsdatei-Verzeichnis</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/RaedFromIni/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4981FDE1-5C8F-4C8E-BF50-BAAF569FE43B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{64F7E15D-C79E-43E1-8921-5774A77A7095}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Mein Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/Mein Computer/ApplicationInititialisationClass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RaedFromIni</Property>
 				<Property Name="TgtF_internalName" Type="Str">RaedFromIni</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
