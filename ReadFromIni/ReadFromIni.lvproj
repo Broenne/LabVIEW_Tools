@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Item Name="Mein Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,6 +16,15 @@
 		</Item>
 		<Item Name="ApplicationInititialisationClass" Type="Folder">
 			<Item Name="ApplicationInititialisation.lvclass" Type="LVClass" URL="../ApplicationInititialisationClass/ApplicationInititialisation.lvclass"/>
+		</Item>
+		<Item Name="DictionaryClass" Type="Folder">
+			<Item Name="Dictionary.lvclass" Type="LVClass" URL="../DictionaryClass/Dictionary.lvclass"/>
+		</Item>
+		<Item Name="DictionaryClass_Examples" Type="Folder">
+			<Item Name="Exmaple_DictionaryClass.vi" Type="VI" URL="../DictionaryClass_Examples/Exmaple_DictionaryClass.vi"/>
+		</Item>
+		<Item Name="DictionaryStringClass" Type="Folder">
+			<Item Name="DictionaryString.lvclass" Type="LVClass" URL="../DictionaryStringClass/DictionaryString.lvclass"/>
 		</Item>
 		<Item Name="AMySubViHelper.vi" Type="VI" URL="../AMySubViHelper.vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
