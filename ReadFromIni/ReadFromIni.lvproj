@@ -26,6 +26,9 @@
 		<Item Name="LoadConfigurationFactoryClass" Type="Folder">
 			<Item Name="LoadConfigurationFactory.lvclass" Type="LVClass" URL="../LoadConfigurationFactoryClass/LoadConfigurationFactory.lvclass"/>
 		</Item>
+		<Item Name="LoadConfigurationDataBaseClass" Type="Folder">
+			<Item Name="LoadConfigurationDataBase.lvclass" Type="LVClass" URL="../LoadConfigurationDataBaseClass/LoadConfigurationDataBase.lvclass"/>
+		</Item>
 		<Item Name="AMySubViHelper.vi" Type="VI" URL="../AMySubViHelper.vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -78,6 +81,12 @@
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+			</Item>
+			<Item Name="System.Data" Type="Document" URL="System.Data">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build-Spezifikationen" Type="Build">
