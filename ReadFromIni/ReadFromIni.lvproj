@@ -17,15 +17,6 @@
 		<Item Name="ApplicationInititialisationClass" Type="Folder">
 			<Item Name="ApplicationInititialisation.lvclass" Type="LVClass" URL="../ApplicationInititialisationClass/ApplicationInititialisation.lvclass"/>
 		</Item>
-		<Item Name="DictionaryClass" Type="Folder">
-			<Item Name="Dictionary.lvclass" Type="LVClass" URL="../DictionaryClass/Dictionary.lvclass"/>
-		</Item>
-		<Item Name="DictionaryClass_Examples" Type="Folder">
-			<Item Name="Exmaple_DictionaryClass.vi" Type="VI" URL="../DictionaryClass_Examples/Exmaple_DictionaryClass.vi"/>
-		</Item>
-		<Item Name="DictionaryStringClass" Type="Folder">
-			<Item Name="DictionaryString.lvclass" Type="LVClass" URL="../DictionaryStringClass/DictionaryString.lvclass"/>
-		</Item>
 		<Item Name="LoadConfigurationFileBasedClass" Type="Folder">
 			<Item Name="LoadConfigurationFileBasedClass.lvclass" Type="LVClass" URL="../LoadConfigurationFileBasedClass/LoadConfigurationFileBasedClass.lvclass"/>
 		</Item>
@@ -38,6 +29,7 @@
 		<Item Name="AMySubViHelper.vi" Type="VI" URL="../AMySubViHelper.vi"/>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="LvDictionary.lvlib" Type="Library" URL="../../LvDictionary/LvDictionary.lvlib"/>
 		<Item Name="Abhängigkeiten" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
