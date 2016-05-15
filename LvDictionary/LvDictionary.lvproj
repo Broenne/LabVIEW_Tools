@@ -14,7 +14,11 @@
 			<Item Name="Exmaple_DictionaryClass.vi" Type="VI" URL="../DictionaryClass_Examples/Exmaple_DictionaryClass.vi"/>
 		</Item>
 		<Item Name="LvDictionary.lvlib" Type="Library" URL="../LvDictionary.lvlib"/>
-		<Item Name="Abhängigkeiten" Type="Dependencies"/>
+		<Item Name="Abhängigkeiten" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build-Spezifikationen" Type="Build"/>
 	</Item>
 </Project>

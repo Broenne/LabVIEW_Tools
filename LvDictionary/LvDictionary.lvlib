@@ -4,4 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="DictionaryClass" Type="Folder">
+		<Item Name="Dictionary.lvclass" Type="LVClass" URL="../DictionaryClass/Dictionary.lvclass"/>
+	</Item>
+	<Item Name="DictionaryStringClass" Type="Folder">
+		<Item Name="DictionaryString.lvclass" Type="LVClass" URL="../DictionaryStringClass/DictionaryString.lvclass"/>
+	</Item>
 </Library>
