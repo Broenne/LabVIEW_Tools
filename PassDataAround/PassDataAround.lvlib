@@ -4,4 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="PassDataAroundClass" Type="Folder">
+		<Item Name="PassDataAround.lvclass" Type="LVClass" URL="../PassDataAround.lvclass"/>
+	</Item>
 </Library>

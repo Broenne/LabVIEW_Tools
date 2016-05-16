@@ -11,10 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="PassDataAroundClass" Type="Folder">
-			<Item Name="PassDataAround.lvclass" Type="LVClass" URL="../PassDataAround.lvclass"/>
-		</Item>
 		<Item Name="LvDictionary.lvlib" Type="Library" URL="../../LvDictionary/LvDictionary.lvlib"/>
+		<Item Name="PassDataAround.lvlib" Type="Library" URL="../PassDataAround.lvlib"/>
 		<Item Name="Abhängigkeiten" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
