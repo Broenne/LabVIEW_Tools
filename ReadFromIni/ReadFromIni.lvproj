@@ -34,6 +34,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="LvDictionary.lvlib" Type="Library" URL="../../LvDictionary/LvDictionary.lvlib"/>
 		<Item Name="PassDataAround.lvlib" Type="Library" URL="../../PassDataAround/PassDataAround.lvlib"/>
+		<Item Name="SubViHelper.vi" Type="VI" URL="../SubViHelper.vi"/>
 		<Item Name="Abhängigkeiten" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
